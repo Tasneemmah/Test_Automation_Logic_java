@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-27T18:44:29 EET" name="Default suite" finished-at="2022-12-27T18:44:44 EET" duration-ms="15115">
+    <groups>
+      <group name="sorting">
+        <method signature="Logic.check_The_high_to_low()[pri:1, instance:Logic@4567f35d]" name="check_The_high_to_low" class="Logic"/>
+        <method signature="Logic.sort_items_low_to_high()[pri:2, instance:Logic@4567f35d]" name="sort_items_low_to_high" class="Logic"/>
+      </group> <!-- sorting -->
+      <group name="cart">
+        <method signature="Logic.check_add_to_cart_process()[pri:3, instance:Logic@4567f35d]" name="check_add_to_cart_process" class="Logic"/>
+      </group> <!-- cart -->
+    </groups>
+    <test started-at="2022-12-27T18:44:29 EET" name="Default test" finished-at="2022-12-27T18:44:44 EET" duration-ms="15115">
+      <class name="Logic">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Logic@4567f35d]" started-at="2022-12-27T18:44:29 EET" name="Login" finished-at="2022-12-27T18:44:39 EET" duration-ms="10219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="check_The_high_to_low()[pri:1, instance:Logic@4567f35d]" started-at="2022-12-27T18:44:39 EET" name="check_The_high_to_low" finished-at="2022-12-27T18:44:39 EET" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_The_high_to_low -->
+        <test-method signature="sort_items_low_to_high()[pri:2, instance:Logic@4567f35d]" started-at="2022-12-27T18:44:39 EET" name="sort_items_low_to_high" finished-at="2022-12-27T18:44:44 EET" duration-ms="4410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sort_items_low_to_high -->
+        <test-method signature="check_add_to_cart_process()[pri:3, instance:Logic@4567f35d]" started-at="2022-12-27T18:44:44 EET" name="check_add_to_cart_process" finished-at="2022-12-27T18:44:44 EET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_add_to_cart_process -->
+      </class> <!-- Logic -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
